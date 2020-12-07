@@ -373,6 +373,69 @@ And lastly, to simplify it further..
 
 const square = num1 => num1 * num1;
 ```
+### Bonus: Elements of style
+
+### camelCase
+
+JavaScript variables and function names are case sensitive. You can write them however you want, but they're conventionally written using camel
+case syntax.
+
+- First letter of first word lowercase
+- First letter of remaining words uppercase
+- No spaces or punctuation between words
+
+#### Examples
+
+```js
+const pizzaTopping = "pepperoni";
+const isThisVariableCamelCase = true;
+const hasURLChanged = false;
+```
+
+Because Javascript is case sensitive, it helps to be consistent in your naming conventions.
+
+```js
+const pizzaTopping = "pepperoni";
+console.log(pizzatopping);
+// Uncaught ReferenceError: pizzatopping is not defined
+```
+
+> Note: Other types: kebab-case, which separates words with dashes, and snake
+> case, which uses underscores.
+
+Use kebab case for CSS classes. CSS is essentially case-sensitive, so
+this-class-name is much easier to read (and type!) than thisClassName.
+
+snake_case is used in programming languages like Python.
+
+> You don't have to follow camelCase standards, you could just UPPERCASE
+> EVERYTHING. But it's a good idea to be consistent everywhere, especially
+> when working with other developers.
+
+### Comments
+
+Comments are an extremely important part of writing code. They help us make
+sense of our code, especially for other people reading our code, or when we have
+walked away from some code and have completely forgotten what certain sections
+of it do. This happens much more quickly than you may imagine.
+
+If you are working on a team, your documentation and commenting practices often
+translate to how easy you are to work with!
+
+```js
+// Single line comment
+
+/*
+  Multiple
+  line
+  comments
+*/
+```
+
+## We Do:
+Try what we've learned yourself [on theses exercises](./exercises.md).
+
+--------
 
 ## Scope
 
